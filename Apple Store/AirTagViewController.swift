@@ -66,12 +66,7 @@ class AirTagViewController: UIViewController {
     }
     
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        
-//        Label.text = TextField.text!
-//        Label.font = Label.font.withSize(15)
-        self.view.endEditing(true)
-    }
+
 
     
     
