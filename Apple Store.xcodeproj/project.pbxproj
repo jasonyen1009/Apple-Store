@@ -16,6 +16,9 @@
 		258D73A2274F90CC00C6A7FD /* Apple_StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D73A1274F90CC00C6A7FD /* Apple_StoreTests.swift */; };
 		258D73AC274F90CC00C6A7FD /* Apple_StoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D73AB274F90CC00C6A7FD /* Apple_StoreUITests.swift */; };
 		258D73AE274F90CC00C6A7FD /* Apple_StoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D73AD274F90CC00C6A7FD /* Apple_StoreUITestsLaunchTests.swift */; };
+		25C2B24227507E1700983E45 /* AirTagTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C2B24127507E1700983E45 /* AirTagTableViewController.swift */; };
+		25C2B2442750C4F400983E45 /* AirTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C2B2432750C4F400983E45 /* AirTagViewController.swift */; };
+		25C2B2822751129300983E45 /* AirTagUINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C2B2812751129300983E45 /* AirTagUINavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		258D73A7274F90CC00C6A7FD /* Apple StoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple StoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		258D73AB274F90CC00C6A7FD /* Apple_StoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_StoreUITests.swift; sourceTree = "<group>"; };
 		258D73AD274F90CC00C6A7FD /* Apple_StoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_StoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		25C2B24127507E1700983E45 /* AirTagTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTagTableViewController.swift; sourceTree = "<group>"; };
+		25C2B2432750C4F400983E45 /* AirTagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTagViewController.swift; sourceTree = "<group>"; };
+		25C2B2812751129300983E45 /* AirTagUINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTagUINavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		258D737E274F90CA00C6A7FD = {
 			isa = PBXGroup;
 			children = (
+				25C2B2812751129300983E45 /* AirTagUINavigationController.swift */,
 				258D7389274F90CA00C6A7FD /* Apple Store */,
 				258D73A0274F90CC00C6A7FD /* Apple StoreTests */,
 				258D73AA274F90CC00C6A7FD /* Apple StoreUITests */,
@@ -103,6 +110,8 @@
 				258D738C274F90CA00C6A7FD /* SceneDelegate.swift */,
 				258D738E274F90CA00C6A7FD /* ViewController.swift */,
 				258D7390274F90CA00C6A7FD /* Main.storyboard */,
+				25C2B2432750C4F400983E45 /* AirTagViewController.swift */,
+				25C2B24127507E1700983E45 /* AirTagTableViewController.swift */,
 				258D7393274F90CC00C6A7FD /* Assets.xcassets */,
 				258D7395274F90CC00C6A7FD /* LaunchScreen.storyboard */,
 				258D7398274F90CC00C6A7FD /* Info.plist */,
@@ -259,7 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				258D738F274F90CA00C6A7FD /* ViewController.swift in Sources */,
+				25C2B2822751129300983E45 /* AirTagUINavigationController.swift in Sources */,
+				25C2B24227507E1700983E45 /* AirTagTableViewController.swift in Sources */,
 				258D738B274F90CA00C6A7FD /* AppDelegate.swift in Sources */,
+				25C2B2442750C4F400983E45 /* AirTagViewController.swift in Sources */,
 				258D738D274F90CA00C6A7FD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
